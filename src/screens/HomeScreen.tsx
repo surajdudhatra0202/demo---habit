@@ -5,7 +5,7 @@ import { MainTabParamList, RootStackParamList } from '../navigation/types';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { FontAwesome } from '@react-native-vector-icons/fontawesome';
 import { MaterialDesignIcons } from '@react-native-vector-icons/material-design-icons';
-import { Button, Chart, SuccessRate } from '../components';
+import { Button, HomeBarChart, SuccessRate } from '../components';
 
 
 type Props = CompositeScreenProps<
@@ -62,10 +62,10 @@ const HomeScreen = ({ navigation }: Props) => {
 
         {/* Progress Section */}
         <View className="mb-6">
-          <Text className="text-white text-2xl font-bold mb-4">Progress</Text>
+          <Text className="text-off_white text-2xl font-bold mb-4">Progress</Text>
           
           <View className="bg-dark_grey p-4 rounded-xl">
-            <Chart />
+            <HomeBarChart />
           </View>
           
           {/* Success Rate Box */}

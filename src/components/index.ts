@@ -1,5 +1,8 @@
 import Button from "./Button";
-import Chart from "./Chart";
+import { HomeBarChart, ProgressCurveChart } from "./Chart";
 import SuccessRate from "./SuccessRate";
+import CalendarComponent from "./Calendar";
+import Divider from "./Divider";
+import Toggle from "./Toggle";
 
-export {Button, Chart, SuccessRate};
+export { Button, HomeBarChart, SuccessRate, ProgressCurveChart, CalendarComponent, Divider, Toggle };
