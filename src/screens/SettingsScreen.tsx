@@ -13,13 +13,13 @@ const SettingsScreen = () => {
   return (
     <ScrollView className="flex-1 bg-dark_bg">
       <View className='p-4'>
-        <Text className="text-off_white text-2xl font-bold mb-4">
+        <Text className="text-off_white text-title_Font font-bold mb-4">
           Appearance
         </Text>
 
         <View className="bg-light_grey p-4 rounded-xl flex-row items-center justify-between">
           <View>
-            <Text className="text-off_white text-2xl">Theme</Text>
+            <Text className="text-off_white text-xl">Theme</Text>
             <Text className="text-light_green text-xl ">System</Text>
           </View>
           <View className='flex-row items-center'>
@@ -30,14 +30,14 @@ const SettingsScreen = () => {
       </View>
 
       <View className='p-4'>
-        <Text className="text-off_white text-2xl font-bold mb-4">
+        <Text className="text-off_white text-title_Font font-bold mb-4">
           Settings
         </Text>
 
         <View className="bg-light_grey p-4 rounded-xl">
           <View className='flex-row items-center justify-between'>
             <View>
-              <Text className="text-off_white text-2xl">Notification</Text>
+              <Text className="text-off_white text-xl">Notification</Text>
             </View>
             <View>
               <Toggle />
@@ -48,7 +48,7 @@ const SettingsScreen = () => {
 
           <View className='flex-row items-center justify-between'>
             <View>
-              <Text className="text-off_white text-2xl">Reminders</Text>
+              <Text className="text-off_white text-xl">Reminders</Text>
             </View>
             <View>
               <Toggle />
@@ -58,14 +58,14 @@ const SettingsScreen = () => {
       </View>
 
       <View className='p-4'>
-        <Text className="text-off_white text-2xl font-bold mb-4">
+        <Text className="text-off_white text-title_Font font-bold mb-4">
           App Information
         </Text>
 
         <View className="bg-light_grey p-4 rounded-xl">
           <View className='flex-row items-center justify-between'>
             <View>
-              <Text className="text-off_white text-2xl">Share App</Text>
+              <Text className="text-off_white text-xl">Share App</Text>
             </View>
             <View>
               {shareIcon}
@@ -76,7 +76,7 @@ const SettingsScreen = () => {
 
           <View className='flex-row items-center justify-between'>
             <View>
-              <Text className="text-off_white text-2xl">Rate </Text>
+              <Text className="text-off_white text-xl">Rate </Text>
             </View>
             <View>
               {rateIcon}
@@ -87,7 +87,7 @@ const SettingsScreen = () => {
 
           <View className='flex-row items-center justify-between'>
             <View>
-              <Text className="text-off_white text-2xl">Privacy Policy</Text>
+              <Text className="text-off_white text-xl">Privacy Policy</Text>
             </View>
             <View>
               {rightIcon}
